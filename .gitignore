@@ -1,0 +1,42 @@
+.gradle
+**/build/
+/logs/
+!gradle/wrapper/gradle-wrapper.jar
+
+### gradle plugins ###
+/buildSrc/build
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+*.class
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+**/out/
+**/generated/
+*.pb
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### macOS ###
+.DS_STORE
+
+### Other ###
+/bin/
+**/*.local.yaml
+kubernetes/monitoring/auth
+baby-monitoring/target/
